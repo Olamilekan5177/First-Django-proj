@@ -31,9 +31,9 @@ SECRET_KEY = 'django-insecure-oa9((hvi=90to$^(p@3yl(l#!oyi23*%xa!m=-39cuwu#z@=fs
 
 # ALLOWED_HOSTS = []
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1' 'sampledomain.com']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -53,7 +53,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleWare'
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
